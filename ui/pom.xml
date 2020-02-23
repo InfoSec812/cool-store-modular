@@ -136,17 +136,19 @@
         <dependency>
             <groupId>io.thorntail</groupId>
             <artifactId>ejb</artifactId>
-            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>io.thorntail</groupId>
             <artifactId>jpa</artifactId>
-            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>io.thorntail</groupId>
             <artifactId>transactions</artifactId>
-            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>io.thorntail</groupId>
+            <artifactId>web</artifactId>
         </dependency>
 
         <!-- Vaadin libs -->
@@ -181,13 +183,6 @@
             <scope>provided</scope>
         </dependency>
 
-        <dependency>
-            <groupId>javax</groupId>
-            <artifactId>javaee-web-api</artifactId>
-            <version>6.0</version>
-            <scope>provided</scope>
-        </dependency>
-
         <!--BRMS libs -->
 
         <dependency>
@@ -197,38 +192,11 @@
         </dependency>
 
         <dependency>
-            <groupId>org.jboss.spec.javax.transaction</groupId>
-            <artifactId>jboss-transaction-api_1.1_spec</artifactId>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.jboss.remoting3</groupId>
-            <artifactId>jboss-remoting</artifactId>
-            <version>3.2.16.GA-redhat-1</version>
-            <!-- <version>3.2.19.GA-redhat-1</version> -->
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
             <version>1.7.6</version>
             <!-- <version>1.7.10</version> -->
             <scope>provided</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>org.kie</groupId>
-            <artifactId>kie-internal</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.jbpm</groupId>
-            <artifactId>jbpm-bpmn2</artifactId>
-        </dependency>
-
-        <!-- Required in BxMS >= 6.2 when using Guided Decision tables -->
-        <dependency>
-            <groupId>org.drools</groupId>
-            <artifactId>drools-workbench-models-guided-dtable</artifactId>
         </dependency>
 
         <dependency>
@@ -258,5 +226,22 @@
     </dependencies>
 
     <build>
+        <finalName>${parent.artifactId}</finalName>
+
+        <plugins>
+            <plugin>
+                <groupId>io.thorntail</groupId>
+                <artifactId>thorntail-maven-plugin</artifactId>
+                <version>${version.thorntail}</version>
+
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>package</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
     </build>
 </project>

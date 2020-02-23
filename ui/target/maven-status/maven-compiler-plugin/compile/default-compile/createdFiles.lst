@@ -1,0 +1,10 @@
+com/redhat/coolstore/ui/ShoppingCartView$2.class
+com/redhat/coolstore/web/CoolStoreApplication.class
+com/redhat/coolstore/ui/components/CheckoutWindow.class
+com/redhat/coolstore/ui/AbstractView.class
+com/redhat/coolstore/ui/ProductsView.class
+com/redhat/coolstore/ui/components/ShoppingCartLine.class
+com/redhat/coolstore/ui/util/Formatter.class
+com/redhat/coolstore/ui/events/UpdateShopppingCartEvent.class
+com/redhat/coolstore/ui/ShoppingCartView.class
+com/redhat/coolstore/ui/ShoppingCartView$1.class

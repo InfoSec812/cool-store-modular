@@ -1,7 +1,7 @@
 package com.redhat.coolstore.web;
 
-import com.redhat.coolstore.ui.ProductsView;
-import com.redhat.coolstore.ui.ShoppingCartView;
+import com.redhat.coolstore.web.ui.ProductsView;
+import com.redhat.coolstore.web.ui.ShoppingCartView;
 import com.vaadin.annotations.Theme;
 import com.vaadin.annotations.Title;
 import com.vaadin.cdi.CDIUI;

@@ -1,4 +1,4 @@
-package com.redhat.coolstore.ui.util;
+package com.redhat.coolstore.web.ui.util;
 
 import java.text.DecimalFormat;
 

@@ -1,4 +1,4 @@
-package com.redhat.coolstore.ui;
+package com.redhat.coolstore.web.ui;
 
 import com.redhat.coolstore.model.ShoppingCart;
 import com.vaadin.cdi.UIScoped;

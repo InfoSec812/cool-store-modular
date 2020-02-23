@@ -1,9 +1,9 @@
-package com.redhat.coolstore.ui;
+package com.redhat.coolstore.web.ui;
 
 import com.redhat.coolstore.model.Product;
 import com.redhat.coolstore.product.ProductService;
-import com.redhat.coolstore.ui.events.UpdateShopppingCartEvent;
-import com.redhat.coolstore.ui.util.Formatter;
+import com.redhat.coolstore.web.ui.events.UpdateShopppingCartEvent;
+import com.redhat.coolstore.web.ui.util.Formatter;
 import com.vaadin.cdi.UIScoped;
 import com.vaadin.event.ShortcutAction.KeyCode;
 import com.vaadin.icons.VaadinIcons;

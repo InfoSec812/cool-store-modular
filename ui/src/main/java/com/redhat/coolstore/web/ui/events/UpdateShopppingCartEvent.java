@@ -1,4 +1,4 @@
-package com.redhat.coolstore.ui.events;
+package com.redhat.coolstore.web.ui.events;
 
 import java.util.Set;
 

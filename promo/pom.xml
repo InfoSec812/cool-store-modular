@@ -126,27 +126,25 @@
   </dependencyManagement>
 
   <dependencies>
-    <!-- Import the CDI API, we use provided scope as the API is included in
-    JBoss AS 7 -->
+
     <dependency>
-      <groupId>javax.enterprise</groupId>
-      <artifactId>cdi-api</artifactId>
-      <scope>provided</scope>
+      <groupId>io.thorntail</groupId>
+      <artifactId>cdi</artifactId>
     </dependency>
 
-    <!-- Import the JPA API, we use provided scope as the API is included in
-            JBoss AS 7 -->
     <dependency>
-      <groupId>org.hibernate.javax.persistence</groupId>
-      <artifactId>hibernate-jpa-2.0-api</artifactId>
+      <groupId>io.thorntail</groupId>
+      <artifactId>ejb</artifactId>
       <scope>provided</scope>
     </dependency>
-
-    <!-- Import the EJB API, we use provided scope as the API is included in
-            JBoss AS 7 -->
     <dependency>
-      <groupId>org.jboss.spec.javax.ejb</groupId>
-      <artifactId>jboss-ejb-api_3.1_spec</artifactId>
+      <groupId>io.thorntail</groupId>
+      <artifactId>jpa</artifactId>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.thorntail</groupId>
+      <artifactId>transactions</artifactId>
       <scope>provided</scope>
     </dependency>
 

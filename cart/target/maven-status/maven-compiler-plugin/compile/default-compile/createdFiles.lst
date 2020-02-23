@@ -1,2 +1,3 @@
+module-info.class
 com/redhat/coolstore/cart/ShoppingCartServiceImpl.class
 com/redhat/coolstore/cart/ShoppingCartService.class

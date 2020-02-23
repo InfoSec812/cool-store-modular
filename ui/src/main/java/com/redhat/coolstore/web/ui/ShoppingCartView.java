@@ -1,12 +1,12 @@
-package com.redhat.coolstore.ui;
+package com.redhat.coolstore.web.ui;
 
 import com.redhat.coolstore.cart.ShoppingCartService;
 import com.redhat.coolstore.model.Product;
 import com.redhat.coolstore.model.ShoppingCart;
 import com.redhat.coolstore.model.ShoppingCartItem;
-import com.redhat.coolstore.ui.components.CheckoutWindow;
-import com.redhat.coolstore.ui.components.ShoppingCartLine;
-import com.redhat.coolstore.ui.events.UpdateShopppingCartEvent;
+import com.redhat.coolstore.web.ui.components.CheckoutWindow;
+import com.redhat.coolstore.web.ui.components.ShoppingCartLine;
+import com.redhat.coolstore.web.ui.events.UpdateShopppingCartEvent;
 import com.vaadin.annotations.PropertyId;
 import com.vaadin.cdi.UIScoped;
 import com.vaadin.data.Binder;

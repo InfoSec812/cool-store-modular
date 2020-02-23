@@ -1,7 +1,7 @@
-package com.redhat.coolstore.ui.components;
+package com.redhat.coolstore.web.ui.components;
 
 import com.redhat.coolstore.model.ShoppingCart;
-import com.redhat.coolstore.ui.util.Formatter;
+import com.redhat.coolstore.web.ui.util.Formatter;
 import com.vaadin.data.Binder;
 import com.vaadin.ui.Alignment;
 import com.vaadin.ui.HorizontalLayout;

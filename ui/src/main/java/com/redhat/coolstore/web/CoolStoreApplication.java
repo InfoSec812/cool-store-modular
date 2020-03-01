@@ -14,10 +14,13 @@ import com.vaadin.ui.themes.ValoTheme;
 import com.vaadin.ui.VerticalLayout;
 
 import javax.inject.Inject;
+import javax.servlet.annotation.WebServlet;
 
+@SuppressWarnings("SpellCheckingInspection")
 @Theme("coolstoretheme")
 @Title("Red Hat Cool Store")
 @CDIUI("")
+@WebServlet
 public class CoolStoreApplication extends UI {
 
 	private static final long serialVersionUID = 8436561253049378320L;

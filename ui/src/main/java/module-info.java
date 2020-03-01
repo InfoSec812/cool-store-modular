@@ -3,8 +3,6 @@ import com.redhat.coolstore.model.ShoppingCart;
 import com.redhat.coolstore.product.ProductService;
 
 module com.redhat.coolstore.web {
-  requires cdi;
-  requires cdi.config;
   exports com.redhat.coolstore.web;
   requires com.redhat.coolstore.shipping;
   requires com.redhat.coolstore.model;
@@ -19,8 +17,6 @@ module com.redhat.coolstore.web {
   requires vaadin.compatibility.shared;
   requires vaadin.server;
   requires vaadin.shared;
-  requires jakarta.inject.api;
-  requires jakarta.enterprise.cdi.api;
   requires java.annotation;
   requires confirmdialog;
   requires viritin;

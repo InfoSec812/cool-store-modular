@@ -29,7 +29,7 @@
         <maven.build.timestamp.format>yyyyMMdd'T'HHmmss</maven.build.timestamp.format>
 
         <!-- Define the version of Vaadin framework. -->
-        <vaadin.version>8.1.0</vaadin.version>
+        <vaadin.version>8.12.3</vaadin.version>
         <vaadin.plugin.version>8.1.0</vaadin.plugin.version>
         <!-- If there are no local customisations, this can also be "fetch" or "cdn" -->
         <vaadin.widgetset.mode>cdn</vaadin.widgetset.mode>

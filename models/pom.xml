@@ -35,7 +35,7 @@
     <jboss.brms.version>6.3.0.GA-redhat-3</jboss.brms.version>
 
     <!-- Define the version of Vaadin framework. -->
-    <vaadin.version>8.1.0</vaadin.version>
+    <vaadin.version>8.14.1</vaadin.version>
     <vaadin.plugin.version>8.1.0</vaadin.plugin.version>
     <!-- If there are no local customisations, this can also be "fetch" or "cdn" -->
     <vaadin.widgetset.mode>cdn</vaadin.widgetset.mode>
